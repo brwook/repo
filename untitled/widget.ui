@@ -111,7 +111,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Milk(300)</string>
+    <string>Milk(100)</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">

@@ -26,7 +26,7 @@ void Widget::setControl()
 {
     ui->pbCoffee->setEnabled(money >= 200);
     ui->pbTea->setEnabled(money >= 150);
-    ui->pbMilk->setEnabled(money >= 300);
+    ui->pbMilk->setEnabled(money >= 100);
 }
 
 void Widget::on_pbCoin500_clicked()
@@ -60,7 +60,7 @@ void Widget::on_pbTea_clicked()
 
 void Widget::on_pbMilk_clicked()
 {
-    changeMoney(-300);
+    changeMoney(-100);
 }
 
 
